@@ -1,0 +1,14 @@
+n = int(input(" Enter the number :"))
+if(n ==1 or n == 0 or n ==2):
+    print("entered number is prime")
+for i in range(3,int(n/2)):
+    if(n%i==0):
+        print(i)
+        print("number is prime")
+        break
+    else:
+        print("not  a prime number")
+        break
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ Enter the number :19
+not  a prime number

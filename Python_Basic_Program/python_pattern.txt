@@ -1,0 +1,16 @@
+num = input(" Enter the number : ")
+for i in num:
+    print(" |", end ="")
+    print("*"* int(i)) 
+
+
+ Enter the number : 123456789
+ |*
+ |**
+ |***
+ |****
+ |*****
+ |******
+ |*******
+ |********
+ |*********

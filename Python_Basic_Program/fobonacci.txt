@@ -1,0 +1,16 @@
+def fibonacci_loop(num):
+    if num == 0:
+        return(0)
+    elif num == 1 or num == 2:
+        return(1)
+    elif num >2:
+        a =1
+        b =1
+        for _ in range(3, num+1):
+            c = a+b
+            a,b =b,c
+        print(a ,b ," ")
+        return(c)
+print("Enter thr number :" )
+print(fibonacci_loop(8))
+    

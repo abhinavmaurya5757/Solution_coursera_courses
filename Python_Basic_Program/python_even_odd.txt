@@ -1,0 +1,11 @@
+n = int(input(" Enter the number :"))
+if(n%2==0):
+    print("entered number is even")
+else:
+    print(" entered no. is odd")
+
+
+
+
+ Enter the number :457
+ entered no. is odd

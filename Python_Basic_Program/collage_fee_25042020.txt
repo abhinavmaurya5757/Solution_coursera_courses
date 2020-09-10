@@ -1,0 +1,44 @@
+Fee Structure
+Sl No.	Fee Item	Year	Semester	Fee Amount	Recieved Amount	Discount Amount	Scholarship Amount	Fine Amount	Due Amount	TnxId	Paid Date	Paying Now
+1	Tuition Fee Part 1	Year 1	NA	60000	60000	0.00	23250.00	0	
+-23250.00
+recieved		 *
+2	Tuition Fee Part 2	Year 1	NA	60000	60000	0.00	60000.00	0	
+-60000.00
+recieved		 *
+3	Annual Fee	Year 1	NA	15000	15000	0.00	0.00	0	
+0.00
+Received		 *
+4	Hostel Fee	Year 1	NA	20000	20000	0.00	0.00	0	
+0.00
+recieved		 *
+5	Mess Fee	Year 1	NA	24385	24385	0.00	0.00	0	
+0.00
+recieved		 *
+6	One Time Charges	Year 1	NA	11750	11750	0.00	0.00	0	
+0.00
+Received		 *
+7	Security Deposit	Year 1	NA	10000	10000	0.00	0.00	0	
+0.00
+Received		 *
+8	LIC	Year 1	NA	118	118	0.00	0.00	0	
+0.00
+TXJERP010867	15/01/2020	 *
+9	Hostel Fine	Year 1	NA	221	0	0	0	0	
+221
+ *
+Total Amount 
+-23250.00
+Fee Receipt :-
+Fee Receipts
+Sl. No	Head Name	Total Fee	Scholarship Amount	Receipt No	Received Amount	Payment Date	Received Mode	Reference No	Tnx Id	Bank	Dues Amount
+1	Tuition Fee Part 1	60000	23250.00	REC00011922	36750	02/01/2020	Online Payment	recieved			0
+2	Tuition Fee Part 1	60000	23250.00	REC00017074	23250	16/01/2020	Online Payment	recieved			-23250
+3	Tuition Fee Part 2	60000	60000.00	REC00017074	60000	16/01/2020	Online Payment	recieved			-60000
+4	Annual Fee	15000	0.00	REC00016101	15000	09/01/2020	Online Payment	Received			0
+5	Hostel Fee	20000	0.00	REC00011922	20000	02/01/2020	Online Payment	recieved			0
+6	Mess Fee	24385	0.00	REC00011922	24385	02/01/2020	Online Payment	recieved			0
+7	One Time Charges	11750	0.00	REC00016101	11750	09/01/2020	Online Payment	Received			0
+8	Security Deposit	10000	0.00	REC00016101	10000	09/01/2020	Online Payment	Received			0
+9	LIC	118	0.00	REC00016826	118	15/01/2020	Online Payment	TXJERP010867			0
+Total Amounts	201253		201253				-83250

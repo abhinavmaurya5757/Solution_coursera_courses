@@ -1,0 +1,49 @@
+             import math
+PI = 3.14
+def perimeter_square(side_cm):
+        print("Enter the side of square:" , side_cm,  "\n perimeter is = ")
+        perimeter = (4*side_cm)
+        return perimeter
+    
+def perimeter_rectangle(length , breadth):
+        print("Enter the length , breadth of rectangle:" , length ,",", breadth,  "\n perimeter is = ")
+        perimeter = 2*(length+breadth)
+        return perimeter
+    
+def perimeter_circle(radius):
+        print("Enter the radius of circle:" , radius,  "\n perimeter is = ")
+        perimeter = (PI*2*radius)
+        return perimeter        
+    
+def perimeter_triangle(side1,side2,side3):
+        print("Enter the side1,side2,side3  of triangle:" , side1,",",side2,",",side3,  "\n perimeter is = ")
+        perimeter = (side1+side2+side3)
+        return perimeter 
+    
+    
+def area1_triangle(side1,side2,side3):
+        perimeter = (side1+side2+side3)
+        semi_perimeter = perimeter/3
+        area1 = semi_perimeter * (semi_perimeter - side1 )*(semi_perimeter - side2)*(semi_perimeter - side3)
+        return area1
+  
+"""  area function>>>>>>"""
+
+def area_square(side):
+    print("Enter the side of square:" , side,  "\n area is = ")
+    area = side*side   
+    return area  
+
+def area_triangle(base,height):
+    print("Enter the base and height of triangle:" , base ,"," ,height,  "\n area is = ")
+    area = 1/2*base*height
+    return area 
+  
+        
+print(perimeter_square(2))
+print(perimeter_rectangle(2,3))
+print(perimeter_circle(2))    
+print(perimeter_triangle(2,4,3))
+print(area1_triangle(2,5,4))
+print(area_square(2))
+print(area_triangle(2,4))

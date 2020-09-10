@@ -1,0 +1,7 @@
+import math
+sum = 0
+num = input(" Enter the number:")
+string = str(num)
+length = len(num)
+print(length)
+

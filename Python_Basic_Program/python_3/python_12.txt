@@ -1,0 +1,8 @@
+ salary = int(input("Enter  BP  : "))
+print(" Your  BP is : " ,salary)
+BP = salary
+TA = (5*BP)/100
+DA = (10*BP)/100
+HRA = (15*BP)/100
+net_salary = BP + TA + DA + HRA
+print("net_salary is = " , net_salary)
